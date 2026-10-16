@@ -179,6 +179,12 @@ body {
 .category-slider-wrapper {
   position: relative;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--bg-main);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Scroll area */
@@ -962,4 +968,8 @@ a.dashboard-link:hover {
 .qahwa-footer span {
   color: var(--accent);
   font-weight: 500;
+}
+
+.menu-category {
+    scroll-margin-top: 190px;
 }
